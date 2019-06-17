@@ -1,26 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Card from 'react-bootstrap/Card';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
+import CardPop from './CardPop';
+import NoStdtList from './NoStdList';
+import SingleStudent from './singleStudent';
+import CampusCard from './campusCard';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import StudentCard from './studentCard';
+import singleStudent from './singleStudent';
+class App extends React.Component {
+
+ 
+  render (){
+    return(
+      
+      <div className = "mainPage">
+
+            
+          <CardPop/>
+       
+        
+
+       </div>   
+      
+   );
+
+  }
 }
 
 export default App;
+
