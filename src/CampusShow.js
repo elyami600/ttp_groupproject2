@@ -28,7 +28,7 @@ class CampusShow extends React.Component{
                  <div className = "container1">
                 <CampusCard 
                 contact = {{
-                 imgUrl:"https://i2.cdn.turner.com/money/galleries/2011/pf/college/1106/gallery.10_most_affordable_colleges/images/lehman-college.jpg",
+                 imgUrl:"http://epmgaa.media.clients.ellingtoncms.com/img/photos/2016/06/23/College_campus_t580.jpg?8f1b5874916776826eb17d7e67de7278c987ca33", 
                  name:  "Lehman College",
                  address:  " 250 Bedford Park, NY",
                  description:  " Lorem ipsum dolor sit amet, explicari necessitatibus an qui, suas probo epicuri ut sea. Atqui nostrud eos in, tation rationibus no mea. Cu deleniti expetendis eam. Congue commodo constituto vel an, erat laudem in nec, cum eu placerat scripserit. Ei vero aeterno placerat vis, ex nec mollis oblique facilisis, nullam gubergren id cum."}}
