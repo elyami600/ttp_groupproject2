@@ -1,26 +1,47 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+import routing from './index';
+import CampusCard from './CampusCard';
+import './card.css';
+import ReactDOM from 'react-dom';
+import CampusShow from './CampusShow';
+import EditStudent from './EditStudent';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class Header extends React.Component {
+  render() {
+     return (
+        <div>
+
+           <ul className = "navheader">
+        
+              <li><a href="#Campus">Campus</a></li>
+              <li><a href= "#Student">Students</a></li>
+              <li><a href="#Home">Home</a></li>
+            </ul>
+        </div>
+     );
+  }
+}
+
+class App extends React.Component {
+ 
+  render (){
+    return(
+      <div>
+      
+      <Header/>
+
+      <CampusShow/>
+      <Header/>
+
+      <EditStudent/>
+      </div>
+       
+   );
+  }
 }
 
 export default App;
+
+
