@@ -1,0 +1,60 @@
+.insideform{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+    color: black;  
+    height: 500px;
+    font-display: wrap;
+    font-size: 30px;
+    
+    border-radius: 3em;
+    background-color: #f5f2ea;
+    word-wrap: break-word;
+    image-rendering: inherit;
+    text-align: center;
+    margin: 20px 90px 80px 90px;
+    padding-top: 50px;
+
+}
+
+input[type=text], select {
+    font-size: 20px;
+  
+    width: 40%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 50%;
+    background-color: rgb(212, 210, 90);
+    color: rgb(7, 6, 6);
+    padding: 14px 20px;
+    margin: 50px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  input[type=submit]:hover {
+    background-color: #4553a0;
+  }
+
+  input[type=number] {
+    font-size: 20px;
+    width: 10%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .h1Edit{
+      font-size: 50px;
+  }
+
+  
